@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api-previsao:
+    build: .
+    container_name: previsao-acoes
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./artefatos:/app/artefatos
+    environment:
+      - FLASK_ENV=development
+    restart: unless-stopped
+
