@@ -56,7 +56,7 @@ Desenvolver um modelo preditivo para estimar o preço de fechamento das ações 
 - **Framework:** FastAPI
 - **Deploy:** Hugging Face Spaces
 - **Endpoints:**
-  - `POST /predict`: recebe uma data futura e retorna a previsão de fechamento
+  - `POST /https://lucivando-docker.hf.space/fechamento: recebe uma data futura e retorna a previsão de fechamento
 - **Exemplo de requisição:**
 ```json
 {
