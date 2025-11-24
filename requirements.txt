@@ -1,0 +1,9 @@
+Flask==2.2.5
+gunicorn==20.1.0
+pandas==1.5.3
+numpy==1.24.3
+joblib==1.2.0
+prophet==1.1.5
+cmdstanpy==1.0.4
+stanio==0.5.1
+
